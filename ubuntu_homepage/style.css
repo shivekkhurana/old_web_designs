@@ -1,0 +1,154 @@
+
+/*-----------------------------------------------------------*/
+/*A tribute to the community by Mehas*/
+/*-----------------------------------------------------------*/
+
+/*-----------------------------------------------------------*/
+/*start:reset*/
+/*-----------------------------------------------------------*/
+
+html, body, div, span, p, a, abbr, acronym,
+del, img, ins, strong, sub, sup, b, u, i, center,ul, li,
+fieldset, form,table, tbody, tfoot, thead, tr, th, td, h3 {
+	color:#444;
+	border: 0;
+	outline: 0;
+	font-family:'Nimbus Sans L', Helveltica,'Arial',sans-serif;
+	font-size:12px;
+	letter-spacing: 0px;
+	list-style:none;
+	vertical-align: baseline;
+}
+
+/*-----------------------------------------------------------*/
+/*end:reset*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*start:links*/
+/*-----------------------------------------------------------*/
+a{
+	color:rgb(40,90,180);
+	text-decoration:none;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.25s;
+	-webkit-transition-property: color,padding,border;		
+}
+	
+a:active{
+	position:relative;
+	top:1px;/*as answered by timvandamme.com*/
+}		
+
+a:hover{color:#999;}
+
+/*-----------------------------------------------------------*/
+/*end:links*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+/*start:normal*/
+/*-----------------------------------------------------------*/
+#workspace{
+	border:7px solid #E7E7DE;
+	font-size:inherit;
+	margin:20px auto;
+	padding:10px 10px;
+	position:relative;
+	width:840px;
+	-webkit-border-top-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+/*--------------*/
+
+#logo{
+	background-color:rgb(199,222,208);
+	color:#777;
+	margin:0 0 0 270px;
+	padding:30px 100px ;
+	text-align:center;
+	font-size:25px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+#logo:hover{background-color:rgb(189,212,198);}
+
+/*--------------*/
+
+.big_text{
+	font-size:20px;
+	font-weight:bold;
+}
+
+p[rel=white]{color:#fff;}
+
+p[rel=black]{color:#333;}
+
+/*--------------*/
+
+.inline li{
+	display:inline;
+	list-style:none;
+	-webkit-transition-duration: 0.35s;
+}
+
+/*--------------*/
+
+#secondary_navigator{
+	float:right;
+	padding:10px;
+	position:relative;
+}
+
+#secondary_navigator a{font-weight:bold;padding:0 5px;}
+
+#download{color:#fff;font-weight:bold;font-size:15px;padding:0 0 0 10px;margin:0 0 -40px 100px;text-transform:uppercase;}
+
+#download li{padding:0 5px;}
+
+#download a{	
+	color:#fff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+#download a[rel=desktop]{padding:20px 30px;background-color:#b90d00;}
+#download a[rel=desktop]:hover{background-color:#ce564d;}
+
+#download a[rel=netbook]{padding:20px 30px;background-color:#008d5b;}
+#download a[rel=netbook]:hover{background-color:#4bae8b;}
+
+#download a[rel=server]{padding:20px 30px;background-color:#1aaeff;}
+#download a[rel=server]:hover{background-color:#60c6ff;}
+
+#download a[rel=discover_ubuntu]{padding:20px 30px;background-color:#ff9900;}
+#download a[rel=discover_ubuntu]:hover{background-color:#ffa70c;}
+
+/*--------------*/
+#services_bar{float:right;width:400px;margin:10px 0 0;}
+
+#services_bar h3:hover{color:rgb(40,90,180);}
+
+.content{width:350px;}
+
+.content #download{width:820px;}
+
+.content #download a{margin:20px 0;}
+
+.content .big_text{padding:10px;}
+
+.content a,.content p{padding:10px 5px;}
+
+.content a{margin:0 0 0 35px;}
+
+.content li{padding:7px 0;list-style:circle;}
+
+#top_margin{margin:60px 0;}
+
+#footer{width:100%;border-top:1px dashed #e8e8e8;padding:10px 0;}
+/*-----------------------------------------------------------*/
+/*end:normal*/
+/*-----------------------------------------------------------*/
