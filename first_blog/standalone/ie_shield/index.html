@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--MADE WITH LOVE,lots of it-->
+<!--CRAP CALLED IE--> 
+<html>
+<head>
+<meta name="description" content="Snap to Shivek Khurana's article regarding IE-SHIELD and IE-PROOF websites. UPDATED ONCE." />
+<title>Crap called ie</title>
+<meta name="keywords" content="shivek,khurana,python programming,delhi,footballer,st.michaels school,pusa road,web design,development" />
+<meta name="author" content="Shivek Khurana"/>
+<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+
+<div id="workspace">
+<!--STICHED BAR-->
+<div id="stiched_bar"><p><ul>
+<li><a href="../../index.html">&larr; BACK HOME</a></li>
+<li class="extra">The albatross was tied around the mariner's neck because he was secretly using IE on his netbook , plus he killed that bird of-course.</li>
+</ul></p></div>
+<!--end:STICHED BAR-->
+
+<!--IE-SHIELd ARTICLE, standalone-->
+<div id="content">
+
+<div class="article"><div id="going_ie_proof">
+<div class="info">Crap called IE, standalone version</div>
+<span class="extra">exclusive Microsloath shit</span>
+<p>As <del>all</del> <ins>most</ins> of us (web devs and designers) hate internet exploiter, and think that it's useless, 
+it is useless, that's why I thought of creating IE proof.</p>
+<p>Objective is very simple, as soon as someone with ie, trys to visit our site, we put up an ie_shield like this :
+<img src="http://test-yellow.zymichost.com/graphics/posts/ie_shield.png" alt="IE-SHIELD"/>
+I know this can dismiss some possible future clients, but at this point, recall the main motto of your brand. I'm sure its "CLIENT SERVICE".
+And I'm sure that you dont want to leave your client with crap like ie, so its highly recommendable.</p>
+<p>And setting it up is fairly simple. Just 4 <del>steps</del> <ins>very simple steps</ins>.</p>
+
+<ol>
+
+<li><strong>Creating i_hate_ie.css<br/></strong>
+All you need to do is save the following code as i_hate_ie.css or whatever you feel like. Make sure to check that you have id="wrapper" and not class="wrapper".
+<p class="code">
+/*IE CSS TO PREVENT IE TO VIEW MY WEBSITE*/<br/>
+#wrapper{display:none;}<br/>
+.extra{<br/>
+	color:#666;<br/>
+	font-size:95%;<br/>
+	font-style:italic;<br/>
+	list-style:none;<br/>
+	margin:5px 0 0 20px;<br/>
+}<br/>
+#ie_proof{<br/>
+	background-color:#E0EBEB;<br/>
+	margin:20px auto;<br/>
+	padding:200px 100px 170px 200px;<br/>
+	position:absolute;<br/>
+	width:450px;<br/>
+}<br/>
+#ie_proof table{margin:30px 0 30px -15px;}<br/>
+#ie_proof a:hover{background-color:#480006;}<br/>
+</p>
+Save this as i_hate_ie.css in your website directory and call it into everypage using <strong>[if IE]</strong> statement.
+</li>
+
+<li><strong>The html<br/></strong>
+Now you need to make each page capable of fighting IE. So we contact our old friend html. Add this code at the top of every page of your site,
+or atleast the home page.
+<p class="code">
+&#60;!--IE-PROOF--&#62;<br/>
+&#60;div id="ie_proof"&#62;<br/> 
+&#60;p&#62;I won't allow IE to see my website&#60;/p&#62;<br/>
+&#60;p&#62;Download a browser, IE is not one.&#60;/p&#62;<br/>
+&#60;table&#62;&#60;tr&#62;<br/>
+&#60;td&#62;&#60;a href="http://www.google.com/chrome" target="_blank"&#62;&#60;img src="chrome.png" alt="Google Chrome"/&#62;&#60;/a&#62;&#60;/td&#62;<br/>
+&#60;td&#62;&#60;a href="http://www.mozilla.com/en-US/firefox/firefox.html" target="_blank"&#62;&#60;img src="firefox.png" alt="Mozilla Firefox"/&#62;&#60;/a&#62;&#60;/td&#62;<br/>
+&#60;td&#62;&#60;a href="http://www.apple.com/safari/" target="_blank"&#62;&#60;img src="safari.png" alt="Apple Safari"/&#62;&#60;/a&#62;/td&#62;<br/>
+&#60;/tr&#62;&#60;/table&#62;<br/>
+&#60;p class="extra"&#62;You may call me arrogant, but that according to me is the best treatment &#60;del&#62;crap/del&#62; &#60;ins&#62;porky crap&#60;/ins&#62; like IE can get.&#60;/p&#62;<br/>
+&#60;/div&#62;<br/>
+&#60;!--end:IE-PROOF--&#62;
+</p>
+</li>
+
+<li><strong>The graphics<br/> </strong>
+Download the graphics folder here and save the graphics into your directory.
+<a href="../../downloads/graphics.zip" target="_blank">../downloads/graphics.zip</a>. (You can also get them from my directory.)
+</li>
+
+<li><strong>Hiding IE-PROOF in your normal css.<br/></strong>
+Hide IE-PROOF so that non IE users are not stopped by the shield.Just add the following code to your master.css
+<p class="code">#ie_proof{display:none}</p>
+</li>
+
+<p><strong>Now you can add an optional IE-PROOF badge.</strong></p>
+Just add the following css to your master.css
+<p class="code">
+#badge{<br/>
+	background-color:#666;<br/>
+	color:#fff;	<br/>
+	float:right;<br/>
+	font-size:80%;<br/>
+	margin:10px 0 0 0;<br/>
+	position:relative;<br/>
+	padding:4px;<br/>
+	-webkit-border-radius:4px;<br/>
+	-moz-border-radius:4px;<br/>
+	border-radius:4px;	<br/>
+}<br/>
+#badge:hover{background-color:#555;}<br/>
+#badge span{<br/>
+	color:#33ccff;<br/>
+	font-size:105%;<br/>
+	font-weight:bold;<br/>
+}<br/>
+</p>
+<br/>
+And here's the html. Add it at the top inside the #wrapper div.
+<p class="code">
+&#60;!--BADGE--&#62;<br/>
+&#60;div id="badge"&#62;<br/>
+&#60;span>IE{/span&#62;-PROOF<br/> 
+&#60;/div&#62;<br/>
+&#60;!--end:BADGE--&#62;<br/>
+</p>
+<p class="update">
+<span class="update_heading">Update</span><br/>
+<span class="extra">because nothing is permanent</span><br/>
+<br/>
+Bill uncle has launched IE 9 (I don't hope it to be like an empty box wrapped in golden wrapper),
+and I'm hearty enough to welcome it. I perhaps 
+may put IE-PROOF down (If IE 9 is good enough).</p>
+
+<p class="update">
+<span class="update_heading">Update</span><br/>
+<span class="extra">because life goes on</span><br/>
+<br/>
+I removed IE-SHIELD. The ie-proof campaign is withdrawn. Because I think by calling IE as "crap", I'll hury the sentiments of programmers who wrote it.</p>
+
+</ol>
+
+
+
+</div></div>
+
+<!--end:IE-SHIELd ARTICLE, standalone-->
+
+</div>
+
+</body>
+</html>

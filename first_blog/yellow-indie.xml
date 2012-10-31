@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="0.91">
+
+ <channel>
+ <title>Yellow Indie</title>
+ <link>http://yellowindie.com</link>
+ <description>Yellow Indie, crafted by Shivek Khurana {}</description>
+ <language>en-us</language>
+ 
+ <item>
+ <title>twitter redesign</title>
+ <link>http://test-yellow.zymichost.com/standalone/twitter_redesign</link>
+ <description>
+<img src="../../graphics/posts/twitter_redesign.png" alt="New Twitter homepage"/>
+Its always good to start up with an image :P</p>
+<p>So as expected, the new twitter home page is here, and along has come a Tsunami of thoughts in my curious brain. Why the fuck did they use the marquee tag ?</p>
+<p>Its a small lot, so I'm classifying all I need to say under <strong>&#8220; Yack ! &#8221;</strong> and <strong>&#8220; not so yack ! &#8221;</strong></p>
+<p>
+<ul>
+<li><strong>The Yacks of new design</strong><ol><li>
+All I found was just one, the marquee tag sucks. Earlier all trending topics were browsable at once, but now we need to wait and look at the horrible text. Ridiculous.
+-3 for this.</li>
+<li><del>That's it</del>
+</li></ol></li>
+<li><br/></li>
+<li><strong>The not so Yacks !</strong><ol>
+<li>The color combinations is pretty safe and usual. +0 as nothing new.</li>
+<li>The search box is powered with a really cool hover effect, something I've never seen before so +2 for that</li>
+<li>Top tweets as Live on <a href="http://www.gowalla.com" title="Gowalla" target="_blank">http://www.gowalla.com</a> nothing new, yet looks good. Another +1 for it.</li>
+<li>Look who is here looks nice as well. Good for attracting new users. And the get started now button is OK. Good enough to get another <del>+1</del> +2 rather.</li>
+</ol></li>
+<li>
+<h3>Conclusion</h3>
+Remove the marquee, you rock. Keep it the way it is &#8220; Boooo! &#8221;
+</li>
+</ul>
+</p>
+ </description>
+ </item>
+
+<item>
+ <title>CM`Screwed me</title>
+ <link>http://test-yellow.zymichost.com/standalone/cmscrew</link>
+ <description>
+I forgot to mention that I hate .php. Don't know why. Its like my soul speaking to me that “ php monster will tear your brain tonight ”. But still as said in my previous article, I gave php powered CMS-es a decent try. My options were very limited as php was all I could opt for (my free host doesn't allow python)
+The outcome was similar to a vague expectation. I SCREWED IT. I just gave it up, something I usually don't do. What I did was enough to pump up my curious brain to think what happened. The main reason I found was bad poor .php background. I'm not capable of coding even a single line of php. I gained very valuable experience in these those 49 hours over 2 days. Enough for me righting a review. But I'm not writing one now. Maybe after the doomsday.
+If you too are a newbie, but know a bit of php, I recommend textpattern, else Joomla is your engine.
+ </description>
+ </item>
+ <item>
+ <title>CMS search</title>
+ <link>http://test-yellow.zymichost.com/standalone/cms_search/</link>
+ <description>
+“ Drupal is the most efficient CMS ever ”, “ Joomla is most powerful ”, “ There's nothing like Wordpress ”. Frankly speaking, all such reviews make me shout, “ WTF ”.
+I'm 15, (a great excuse), and I had just heard of a thing called CMS, but never knew what it was, or what its use was. All I knew was html and CSS. Thanks to Sir Tim for my first encounter with CMS. I just got to know that CMS-es are used to manage you site and call in better functionality. I have never used a CMS before, I don't know what it looks like, all I know is that I'm eager to learn something new.
+Can't say write anything regarding limitations and barriers put up by my free zymic hosting account. Will update soon.
+ </description>
+ </item>
+ </channel>
+ </rss>

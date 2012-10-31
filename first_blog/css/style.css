@@ -1,0 +1,539 @@
+/* BOO */
+/*__author__='shivekk@gmail.com | Shivek Khurana'*/
+/*__version__='1.28.03.2010 | read as version.day.month.year'*/
+/*__licence-type__='GPL/GNU | Feel free to use it anyway you feel like.'*/
+/*Optimised using http://www.csscompressor.com/ | applause to them*/
+
+/*----------------------------------*/
+/*start:CSS CALLED "meh"*/
+
+
+/*----------------------------------*/
+/*start:reset | as on meyerweb.com | Thanks to Eric Meyer*/
+html,body,div,span,p,a,abbr,acronym,del,img,ins,strong,sub,sup,b,u,i,center,ul,li,fieldset,form,table,tbody,tfoot,thead,tr,th,td
+{
+	border:none;
+	color:#444;
+	font-family:'Nimbus Sans L', Helveltica,'Arial',sans-serif;
+	font-size:12px;
+	list-style:none;
+	margin:0;
+	outline:none;
+	padding:0;
+	text-decoration:none;
+	vertical-align:baseline;
+}
+/*end:reset*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*start:link-styling | !imp : Thanks to Tim Van Damme for telling me how to move links on click*/
+a
+{
+	-webkit-transition-delay:0;
+	-webkit-transition-duration:.25s;
+	-webkit-transition-property:color,padding,border;
+	color:#1e5696;
+	text-decoration:none;
+}
+
+a:active
+{
+	position:relative;
+	top:1px;
+}
+
+a:hover,#sh:hover
+{
+	color:#999;
+}
+/*end:link-styling*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*start:normal | Thanks to Sir Tim again, he taught me how to make sidebars*/
+
+#workspace
+{
+	margin:20px auto;
+	width:780px;
+}
+
+/*>290px div for home page<*/
+#home_workspace
+{
+	height:250px;
+	margin:20px auto;
+	overflow:hidden;
+	padding:0 0 0 10px;
+	width:780px;
+}
+
+#home_workspace li
+{
+	margin:20px 0 0;
+}
+
+#home_workspace #float_left
+{
+	float:left;
+	margin-left:10px;
+	width:200px;
+}
+
+#home_workspace #float_right
+{
+	float:right;
+	width:540px;
+}
+
+/*<>*/
+
+/*>#next_previous and archive + tags<*/
+#options
+{
+	border-top:1px dashed #C4C3C2;
+	margin:30px 0 0;
+	padding:10px 0 0;
+}
+
+#options p{float:left;}
+
+#archive_tags
+{
+	float:right;
+}
+/*<>*/
+
+/*>everthing below that line | home page only<*/
+#home_bottom
+{
+	border-top:1px dashed #C4C3C2;
+	margin:auto;
+	padding:10px 0 0 10px;
+	width:95%;
+}
+
+/*>With the help of Amrinder Sandhu's www.relpost.com, I was able to make that tree hover effect | Thanks to him | catch him at awayback.com <*/
+#tree
+{
+	margin:-10px 0 0;
+	padding:0 30px;
+	width:400px;
+}
+
+#tree span
+{
+	color:#C4C3C2;
+}
+
+#tree li
+{
+	position:absolute;
+}
+
+#tree a
+{
+	background:url(../graphics/tree/sprite.png) no-repeat;
+	padding:0 0 0 15px;
+}
+
+#profile
+{
+	border-left:1px dashed #C4C3C2;
+}
+
+#profile a
+{
+	background-position:left 1px;
+}
+
+#profile a:hover
+{
+	background-position:left -12px;
+}
+
+#profile p
+{
+	margin:0 0 -9px;
+	padding:30px 0 0;
+}
+
+#feed
+{
+	border-right:1px dashed #C4C3C2;
+	margin:0 0 0 120px;
+}
+
+#feed a
+{
+	background-position:left -27px;
+}
+
+#feed a:hover
+{
+	background-position:left -41px;
+}
+
+#feed p
+{
+	margin:0 0 -10px;
+	padding:55px 0 0;
+}
+
+#contact
+{
+	margin:80px 0 0;
+}
+
+/*>contact sprite was causing unexpected bugs<*/
+/*
+#contact p
+{
+	background:url(sprite.png) no-repeat left -55px;
+	padding:0 0 0 15px;
+}
+
+#contact p:hover
+{
+	background:url(sprite.png) no-repeat left -68px;
+	padding:0 0 0 15px;
+}
+*/
+/*<>*/
+
+#hidden
+{
+	color:#fff;
+	font-size:30px;
+	margin:120px 0 0 20px;
+}
+/*<>*/
+
+.code
+{
+	font-family:monospace;
+}
+
+.extra
+{
+	color:#666;
+	font-size:11px;
+	font-style:italic;
+	list-style:none;
+	margin:5px 0 20px 20px;
+}
+
+del
+{
+	color:#888;
+	font-size:inherit;
+	text-decoration:line-through;
+}
+
+ins
+{
+	color:#444;
+	font-size:inherit;
+}
+
+sub
+{
+	font-size:11px;
+	color:#489;
+	margin:0 0 0 10px;
+}
+
+#content
+{
+	float:right;
+	padding:0 10px 0 0;
+	width:510px;
+}
+
+#stiched_bar
+{
+	color:#333;
+	position:fixed;
+	width:230px;
+}
+
+#stiched_bar li
+{
+	border-top:1px dashed #E8E8E8;
+	list-style:none;
+	padding:7px 0;
+}
+
+#stiched_bar li:last-child
+{
+	border-bottom:1px dashed #E8E8E8;
+}
+
+/*>Twitter, Facebook styling | courtesy:amrindersandhu.com<*/
+.twitter
+{
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	color:#3cf;
+	font-family:monospace;
+	font-size:inherit;
+	font-weight:bold;
+	padding:1px;
+}
+
+.facebook
+{
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	background-color:#3b5998;
+	border-radius:1px;
+	color:#fff;
+	font-size:inherit;
+	font-weight:bold;
+	padding:0 1px;
+}
+/*<>*/
+
+.drupal
+{
+	color:#29D;
+	font-size:inherit;
+	font-weight:bold;
+}
+
+.joomla
+{
+	color:#0B2A4C;
+	font-size:inherit;
+}
+
+.wordpress
+{
+	color:#666;
+	font-family:serif;
+	font-size:inherit;
+}
+
+.red
+{
+	color:#A52A2A;
+}
+
+/*>I tried making a RSS button out of CSS, but didn't use it. | Feel free to have a look at it<*/
+/*>Start RSS button<*/
+/*
+#rss
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:orange;
+	border-radius:5px;
+	color:#fff;
+	height:40px;
+	margin:0 0 0 20px;
+	width:40px;
+}
+
+#rss:hover
+{
+	background-color:#480;
+}
+
+#dot,#first_line,#second_line,#third_line
+{
+	color:#fff;
+	position:absolute;
+}
+
+#dot
+{
+	font-size:70px;
+	margin:-26px 0 0;
+}
+
+#first_line
+{
+	font-size:35px;
+	font-weight:bold;
+	margin:14px 0 0 15px;
+}
+
+#second_line
+{
+	font-size:40px;
+	margin:5px 0 0 20px;
+}
+
+#third_line
+{
+	font-size:50px;
+	margin:-7px 0 0 25px;
+}
+*/
+/*<>*/
+/*<>*/
+
+/*The tooltip | as on http://www.smashingmagazine.com/2008/12/15/10-useful-techniques-to-improve-your-user-interface-designs/ (no. 9) | 
+Thanks to rohitarondekar.com for reference*/
+.this_span,.hover_span
+{
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color:#fff;
+	display:none;
+	text-decoration:none;
+}
+
+.hover_span
+{
+	background-color:#480;
+	padding:15px;
+}
+
+.this_span
+{
+	background-color:rgba(100,60,70,1);
+	padding:15px 10px;
+}
+
+.this:hover .this_span
+{
+	display:block;
+	position:absolute;
+	width:225px;
+}
+/*<>*/
+
+/*>html 5 just didn't suit me, so change it to html 4<*/
+/*<>*/
+.article
+{
+	border-top:1px dashed #e8e8e8;
+	margin:0 0 10px;
+	padding:5px 0;
+}
+
+.article p
+{
+	padding:14px 0 0;
+	width:490px;
+}
+
+.article img
+{
+	margin:20px auto;
+	width:520px;
+}
+
+ol li
+{
+	list-style:decimal;
+	margin:20px 0 0;
+}
+
+.update
+{
+	border-top:1px dashed #e8e8e8;
+	margin:20px 0 0;
+}
+
+.update_heading
+{
+	color:rgba(120,190,250,1);
+	font-size:15px;
+}
+
+.tag
+{
+	color:#480;
+	float:right;
+	font-size:11px;
+	margin:8px 0;
+	text-transform:lowercase;
+}
+
+.info
+{
+	font-size:16px;
+}
+
+li a .info:hover
+{
+	color:#777;
+}
+
+#taglist li.this
+{
+	border-top:1px dashed #e8e8e8;
+	padding:20px 10px;
+	width:inherit;
+}
+
+#taglist li.this:hover
+{
+	background-color:#f8f8f8;
+}
+
+#taglist .this_span
+{
+	background-color:#f8f8f8;
+	border-bottom:2px solid #e8e8e8;
+	font-size:12px;
+	font-weight:normal;
+	float:right;
+	margin:-20px 0 0 160px;
+	padding:10px 10px 14px 10px;
+	width:300px;
+}
+
+#taglist li[rel="1"]
+{
+	color:#C8C8C8;
+}
+
+#taglist li[rel="2"]
+{
+	color:#989898;
+}
+
+#taglist li[rel="3"]
+{
+	color:#707070;
+}
+
+#taglist li[rel="4"]
+{
+	color:#383838;
+}
+
+#taglist li[rel="5"]
+{
+	color:#101010 ;
+}
+
+.tag_count
+{
+	color:inherit;
+	font-family:monospace;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px;
+}
+
+
+.wrapped li
+{
+	padding:5px 0;
+}
+/*end:normal*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*People who work for self-satisfaction are proud of themselves and those who work for others are a symbol of pride then on*/
+/*----------------------------------*/
+
+/*end:CSS CALLED "meh"*/
+/*----------------------------------*/

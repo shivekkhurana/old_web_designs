@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--MADE WITH LOVE,lots of it-->
+<!--MY FIRST PYTHON MODULE--> 
+<html>
+<head>
+<meta name="description" content="Snap to Shivek Khurana's article about his first python module." />
+<title>My first python module</title>
+<meta name="keywords" content="shivek,khurana,python programming,delhi,footballer,st.michaels school,pusa road,web design,development" />
+<meta name="author" content="Shivek Khurana"/>
+<link type="text/css" rel="stylesheet" href="../../css/style.css"/>
+</head>
+<body>
+<div id="workspace">
+<!--STICHED BAR-->
+<div id="stiched_bar"><p><ul>
+<li><a href="../../index.html">&larr; BACK HOME</a></li>
+<li class="extra">Python is not a snake here.</li>
+</ul></p></div>
+<!--end:STICHED BAR-->
+
+<!--MY FIRST PYTHON MODULE ARTICLE, standalone-->
+<div id="content">
+
+<div class="article"><div id="going_ie_proof">
+<div class="info">My first python module, standalone version</div>
+<span class="extra">def sa_cube(a,b,c):</span>
+<p>I'm an open-source user and a baby programmer. I just wrote a python module 
+called surface_areas_and_volumes.py . It basically provides a backbone on which 
+programmers can develop a surface area calculator. Although pretty basic, it can
+prove to be of great use. The prototype (or what I call m-frame) is pretty simple.
+I don't think you need the code, but if you do, feel free to ask me. Forget it
+, here's the code, use it anyway you feel like.</p>
+
+<p class="code">
+#Surface areas and volumes of cube , cuboid , cylinder ,<br/>
+#cone , sphere and hemisphere<br/>
+'''<br/>
+Surface areas and volumes calculator<br/>
+What figure do you need to work on ?<br/>
+1=cube<br/>
+2=cuboid<br/>
+3=cylinder<br/>
+4=cone<br/>
+5=hemisphere<br/>
+6=sphere<br/>
+<br/>
+'''<br/>
+<br/>
+pi=22/7<br/>
+space='''<br/>
+         '''<br/>
+<br/>
+<br/>
+#-----------------#<br/>
+def sa_cube():<br/>
+    a=int(input('Side of cube = '))<br/>
+    print('Surface area of the cube is',a*a*6)<br/>
+<br/>
+def volume_cube():<br/>
+    a=int(input('Side of cube = '))<br/>
+    print('Volume of cube',a*a*a)<br/>
+<br/>
+    <br/>
+#-----------------#<br/>
+<br/>
+def sa_cuboid():<br/>
+    l=int(input('Length of cuboid = '))<br/>
+    b=int(input('Breadth of cuboid = '))<br/>
+    h=int(input('Height of cuboid = '))<br/>
+    print('Surface are of cuboid is',2*((l*b)+(b*h)+(h*l)))<br/>
+    <br/>
+def volume_cuboid():<br/>
+    l=int(input('Length of cuboid = '))<br/>
+    b=int(input('Breadth of cuboid = '))<br/>
+    h=int(input('Height of cuboid = '))<br/>
+    print('Volume of cuboid is',l*b*h)<br/>
+<br/>
+#-----------------#<br/>
+<br/>
+def csa_cylinder():<br/>
+    global pi<br/>
+    r=int(input('Radius of cylinder = '))<br/>
+    h=int(input('Height of cylinder = '))<br/>
+    print ('Curved surface area of cylinder is',2*pi*r*h)<br/>
+<br/>
+def tsa_cylinder():<br/>
+    global pi<br/>
+    r=int(input('Radius of cylinder = '))<br/>
+    h=int(input('Height of cylinder = '))<br/>
+    print('Total surface area of cylinder is',2*pi*r*(r+h))<br/>
+<br/>
+def volume_cylinder():<br/>
+    global pi<br/>
+    r=int(input('Radius of cylinder = '))<br/>
+    h=int(input('Height of cylinder = '))<br/>
+    print('Volume of cylinder is',2*pi*r*r*h)<br/>
+<br/>
+#-----------------#<br/>
+<br/>
+def csa_cone():<br/>
+    global pi<br/>
+    r=int(input('Radius of cone = '))<br/>
+    l=int(input('Slant Height of cone = '))<br/>
+    print('Curved surface area of cone is',pi*r*l)<br/>
+<br/>
+def tsa_cone():<br/>
+    global pi<br/>
+    r=int(input('Radius of cone = '))<br/>
+    l=int(input('Slant Height of cone = '))<br/>
+    print('Total surface area of cone is',pi*r*(r+l))<br/>
+<br/>
+def volume_cone():<br/>
+    global pi<br/>
+    r=int(input('Radius of cone = '))<br/>
+    h=int(input('Height of cone = '))<br/>
+    print('Volume of cone is',(1/3)*pi*r*r*h)<br/>
+<br/>
+#----------------#<br/>
+<br/>
+def csa_hemisphere():<br/>
+    global pi<br/>
+    r=int(input('Radius of hemisphere = '))<br/>
+    print('Curved surface area of hemisphere is',2*pi*r*r)<br/>
+<br/>
+def tsa_hemisphere():<br/>
+    global pi<br/>
+    r=int(input('Radius of hemisphere = '))<br/>
+    print('Total surface area of hemisphere is ',3*pi*r*r)<br/>
+<br/>
+def volume_hemisphere():<br/>
+    global pi<br/>
+    r=int(input('Radius of hemisphere = '))<br/>
+    print('Volume of hemisphere is',(2/3)*pi*r*r*r)<br/>
+<br/>
+#----------------#<br/>
+<br/>
+def sa_sphere():
+    global pi<br/><br/><br/>
+    r=int(input('Radius of hemisphere = '))<br/>
+    print('Surface area of sphere is',4*pi*r*r)
+<br/>
+def volume_sphere():<br/>
+    global pi<br/>
+    r=int(input('Radius of hemisphere = '))<br/>
+    print('Volume of sphere is',(4/3)*pi*r*r*r)<br/>
+<br/>
+#----------------#
+
+
+</div></div>
+
+<!--end:MY FIRST PYTHON MODULE ARTICLE, standalone-->
+
+</div>
+
+</body>
+</html>
